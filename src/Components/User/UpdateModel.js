@@ -11,7 +11,7 @@ const UpdateModel = ({
   specificUser,
   setSpecificUser,
 }) => {
-  //console.log("specificUser", specificUser);
+  console.log("specificUser", specificUser);
   const handleClosebtn = () => {
     setUpdateShow(!updateShow);
     setSpecificUser({});
